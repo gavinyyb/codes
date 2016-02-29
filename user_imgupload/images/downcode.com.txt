@@ -1,0 +1,93 @@
+╭══════════════════════════════════════════╮
+║                                  中国源码下载站                                    ║
+║                                                                                    ║
+║              源码下载:www.downcode.com  源码论坛:www.downcode.net                  ║
+║                                                                                    ║
+║                       如有转载请勿删除以上信息，谢谢合作                           ║
+╰══════════════════════════════════════════╯
+╭══════════════════════════════════════════╮
+║ 　　　　　　　　　　　　　　　　程序相关使用说明　　　　　　　　　　  　　　　　　 ║
+╰══════════════════════════════════════════╯
+
+
+
+████████████████████████
+███┏━━━┑█████████┏━━━┑██
+███┃███┢━━━┑█┏━━━┫███│██
+███┖┒█┌┨███┢━┫███┞┰◢◤/ ██
+████┃█│┃█  █┃█┃█  █│┃█│███
+████┃█│┃███┃█┃███│┃█│███
+██┏━┛█│┖─┲━┛█┞───╆◢◤┷┑██
+██ \◥██│██┃███│███┃███│██
+██ ╰-──┘██┃█  █│███┖───┘██
+█████████┃███│██████████
+█████████┖───┘██████████
+████████████████████████
+
+--==<<    MyChinaren校友录古朴单班级版    >>==--
+
+作者		Jodoz
+运行条件	PHP+Mysql
+开发环境：	WindowsXP Pro
+		Apache2.0.47
+		PHP4.3.3(Apache 2.0 Handler)
+		Mysql4.0.15
+
+-- 2003-11-11 --            -- www.Jodoz.net --
+
+-----+++++>>>>>==================<<<<<+++++-----
+
+程序说明:
+MyChinaren校友录古朴单班级版
+"MyChinaren" ---- 仿 Chinaren 校友录风格的
+"古" ---- 仿的是 旧版 的Chinaren
+"朴" ---- 功能不多,主要是留言簿和相册,加上成员管理
+          班级参数设置
+"单班级" ---- 不用多说吧:)
+
+版权声明：
+本程序为完全免费版本，你可以任意使用、修改、传播
+本程序。同时我希望你在修改本程序的同时在页脚保留
+版权信息及有关作者的链接，谢谢！
+
+安装说明：
+1. 将所有文件放到一网站目录下
+2. 从浏览器客户端运行setup.php
+
+文件说明：
+addrbook.php		地址簿
+admin.php		管理页面
+album.php		相册
+conf_class.php		班级参数
+conf_mysql.php		数据库参数
+deal_class.php		班级参数修改处理
+deal_login.php		登陆处理
+deal_mem.php		成员处理
+deal_pic.php		图片增减处理
+deal_reg.php		个人资料处理
+deal_word.php		留言处理
+define.php		管理员权力与义务
+down_addr.php		成员地址簿导出
+down_words.php		班级留言导出
+inc_birth.php		本月生日模块
+inc_error.php		错误提示页面
+inc_foot.php		HTML底部模块
+inc_head.php		HTML顶部模块
+inc_link.php		友情链接模块
+inc_nav.php		班级功能模块,导航
+index.php		首页
+leaveword.php		留言页面
+main.css		样式文件
+member.php		成员信息
+personal.php		个人资料修改
+picup.php		相片上传页面
+pixhow.php		显示相片
+readme.txt		本文件
+setup.php		安装文件
+structure.sql		Mysql数据结构文件
+
+images/			网页中使用的图片
+pix/			存放相册相片及缩略图,属性改为777		
+
+================================================
+Email: webmaster@jodoz.net

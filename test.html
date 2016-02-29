@@ -1,0 +1,19 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>用Margin还是用Padding</title>
+<style>
+.top{width:160px; height:50px; background:#ccf;}
+.middle{width:160px; background:#cfc; border-top:1px solid #ccc;}
+.middle .firstChild{margin-top:20px; margin-bottom:20px; border-bottom:1px solid #000;}
+.middle .secondChild{margin-top:15px;}
+</style>
+</head>
+<body>
+<div class="top"></div>
+<div class="middle">
+  <div class="firstChild">我是firstChild，我只是想和我的父元素隔开点距离，这样看起来舒服。</div>
+  <div class="secondChild">我要和楼上隔开点的距离。恩，能与底边有点呼吸距离就更好了。</div>
+</div>
+</body>
+</html>
